@@ -1,0 +1,143 @@
+@import url();
+:root {
+  --primary-color: #0A1128;
+  --white-color: #FFFFFF;
+  --ligth-grey-color: #EEEEEE;
+  --gap: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* fonte para h1
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+*/
+
+/* fontes para textos
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+  */
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    font-size: 7rem;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 6.5rem;
+  }
+  
+  h3 {
+    font-size: 6rem;
+  }
+  
+  h4 {
+    font-size: 5.5rem;
+  }
+  
+  h5 {
+    font-size: 5rem;
+  }
+
+  h6 {
+    font-size: 4.5rem;
+  }
+
+ .main-bg {
+    background-image: url('img/main-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+  }
+
+ .white-bg {
+  background: var(--white-color);
+  }
+
+  .main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--gap);
+
+  }
+
+  .section {
+    min-height: 100vh;
+  }
+
+  .menu {
+    background: var(--white-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-bottom: 1px solid var(--ligth-grey-color);
+  }
+
+  .menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .menu h1{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+  }
+
+  .menu h1 a {
+    color: inherit;
+  }
+
+  .menu ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .menu ul li a {
+    display: block;
+    padding: 2rem;
+    font-size: 1.9rem;
+    color: var(--primary-color);
+  }
