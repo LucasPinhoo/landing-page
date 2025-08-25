@@ -127,8 +127,14 @@
     line-height: 1.2;
   }
 
+  .intro-img {
+    align-items: flex-end;
+  }
+
   .intro-img img{
+    display: block;
     max-width: 100%;
+    max-width: 50rem;
     height: auto;
   }
 
@@ -143,6 +149,7 @@
     right: 0;
     width: 100%;
     border-bottom: 0.1rem solid var(--ligth-grey-color);
+    z-index: 1;
   }
 
   .menu-content {
